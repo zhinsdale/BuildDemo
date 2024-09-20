@@ -52,5 +52,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/tech-trek:${{ github.sha }}
-ama
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/tech-trek:${{ github.sha }} ama
